@@ -227,7 +227,7 @@ for (i in 1:length(SMN)){
   set.seed(123)
     
   # set up picture device
-  jpeg(paste("network",as.character(i),",jpeg", sep = ""),quality = 100)
+  jpeg(paste("network",as.character(i),".jpeg", sep = ""),quality = 100)
     
   # creating network plot   
   plot(SMN[[i]],
