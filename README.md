@@ -4,9 +4,9 @@ This repository contains an R script to generate data for the stable marriage pr
 
 ## Example
 
-### http://url/to/img.pngStarting Point
+### Starting Point
 
-![](/network1.jpg)
+![](/network1.jpeg)
 
 ### Preference List
 
