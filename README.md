@@ -10,13 +10,7 @@ This repository contains an R script to generate data for the stable marriage pr
 
 ### Preference List
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-	
-	
-|    | V1       V2      V3      V4      V5      V6      V7      V8      V9     V10     V11     V12     V13     V14     V15 |
+| Node | Preference List |
 | --- | --- |
 | 1  | 30	18	29	25	17	21	20	19	27	22	16	26	28	23	24 |
 | 2  | 18	26	24	27	28	29	30	23	17	22	16	21	25	19	20 |
