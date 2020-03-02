@@ -288,13 +288,13 @@ for (i in 1:dim(PrefMat)[1]){
   node[i] <- i
   
   # gender of all vertices
-  gender[i] <- V(SMN[[51]])[i]$gender
+  gender[i] <- V(SMN[[length(SMN)]])[i]$gender
   
   # matched partner
-  partner[i] <- unlist(adjacent_vertices(SMN[[51]],i, mode= "all"))
+  partner[i] <- unlist(adjacent_vertices(SMN[[length(SMN)]],i, mode= "all"))
   
   # Rank of partner
-  rank[i] <- which(unlist(adjacent_vertices(SMN[[51]],i, mode= "all")) == PrefMat[i,])
+  rank[i] <- which(unlist(adjacent_vertices(SMN[[length(SMN)]],i, mode= "all")) == PrefMat[i,])
   
 }
 
