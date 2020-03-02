@@ -4,11 +4,11 @@ This repository contains an R script to generate data for the stable marriage pr
 
 ## Example
 
-Starting Point
+### http://url/to/img.pngStarting Point
 
-![](/Network1.jpg)
+![](/network1.jpg)
 
-Preference List
+### Preference List
 
 	
 |   |V1 V2  V3  V4  V5  V6  V7  V8  V9 V10 V11 V12  V13 V14 V15|
@@ -43,11 +43,12 @@ Preference List
 |29	|8	12	7	2	1	4	9	5	3	10	14	11	6	15	13|
 |30	|10	15	9	11	7	6	3	13	8	14	4	5	12	2	1|
 
-Solution
+### Solution
 
 ![](Network.gif)
 
-Results
+### Results
+
 ![](/RankDistribution.png)
 
 
